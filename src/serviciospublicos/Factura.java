@@ -19,6 +19,7 @@ public class Factura {
     double impuesto;
     double total;
     public void calcularCosto(){
+        //calculo
         this.costo = this.consumo * this.valorUnidad;
     }
     public void calcularDescuentoSobrecosto(){
